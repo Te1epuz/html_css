@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карты</title>
+  <style>
+    img {
+      position: absolute;
+      top: 100px;
+      left: 200px;
+      transform-origin: 50% 100%;
+    }
+    
+    .card-3 {
+      transform: rotate(-15deg);
+    }
+
+    .card-ace {
+      transform: rotate(15deg);
+    }
+
+    img:hover {
+    z-index: 2;    
+    }
+
+  </style>
+</head>
+<body>
+  <img class="card-3" src="3.png" alt="3">
+  <img class="card-7" src="7.png" alt="7">
+  <img class="card-ace" src="ace.png" alt="ace">  
+</body>
+</html>
