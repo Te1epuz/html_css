@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    body {
+      background: rgb(29, 43, 82);      
+    }
+    form {
+      width: 600px;
+      margin: auto;
+      border: 1px solid rgb(68, 85, 95);
+      background: rgb(42, 60, 121);
+      color: rgb(96, 165, 205);
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    div, input {
+      display: inline-block;
+    }
+    div {
+      width: 120px;
+      text-align: right;
+      vertical-align: top;
+      padding-right: 10px;
+    }
+    input, textarea {
+      width: 250px;
+      height: 20px;
+      background: rgb(22, 22, 59);
+      color: white;
+      border: none;
+      border-bottom: 2px solid rgb(68, 85, 95);
+      border-right: 2px solid rgb(68, 85, 95);
+    }
+    textarea {
+      height: auto;
+      resize: none;
+      overflow-y: scroll;
+    }
+    button {
+      border: none;
+      background-color: rgb(19, 19, 31);
+      color: rgb(96, 165, 205);
+      height: 30px;
+      width: 100px
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <p><div>Имя</div><input type="text" name="" id=""></p>
+    <p><div>Фамилия</div><input type="text" name="" id=""></p>
+    <p><div>Емеил</div><input type="text" name="" id=""></p>
+    <p><div>Сообщение</div><textarea name="comment" rows="4"></textarea></p>
+    <p><div></div><button>Send</button></p>
+  </form>
+</body>
+</html>
