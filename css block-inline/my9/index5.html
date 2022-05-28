@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пейджер</title>
+  <style>
+    ul.pagination {
+      padding: 0;
+      text-align: center;
+    }
+
+    .pagination li {
+      display: inline-block;
+      margin: 0 5px;
+    }
+ 
+    .pagination a {
+      display: inline-block;
+      text-decoration: none;
+      width: 30px; height: 30px;
+      line-height: 30px;
+      color: #0f2541;
+      border: 1px solid #0f2541;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .pagination a.active {
+      background: #ff6600;
+      color: #fff;
+      border-color: #ff6600;
+    }
+
+    .pagination a.prev, .pagination a.next {
+      width: 80px;
+    }
+ 
+ 
+  </style>
+</head>
+<body>
+  <ul class="pagination">
+    <li class="prev"><a href="#" class="prev">&#8592;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#" class="active">2</a></li>
+    <li><a href="#">3</a></li>
+    <li class="next"><a href="#" class="next">&#8594;</a></li>
+   </ul>
+</body>
+</html>
+
+
+
